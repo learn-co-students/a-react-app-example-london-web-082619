@@ -11,15 +11,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Now
+          Now {moment().format('MMMM Do YYYY, hh:mm:ss a')}
         </header>
+        <center><h1>！CEOから褒められてよかったね！</h1></center>
         <p className="App-intro">
-          In React apps, we write JSX - it looks like HTML, and uses a lot of HTML syntax.
+          ！今日は良い一日でしたね。お疲れ様でした！
+          {/* In React apps, we write JSX - it looks like HTML, and uses a lot of HTML syntax.
           JSX lets us include JavaScript functions right along with the HTML, and also
-          allows us to add in components, which are separate, self-contained chunks of JSX.
+          allows us to add in components, which are separate, self-contained chunks of JSX. */}
         </p>
-        <ExampleComponent /> Test
-        <TestComponent /> Test
+        <ExampleComponent /> こちらをご覧ください！
+        <TestComponent /> こちらをご覧ください！
       </div>
     );
   }
